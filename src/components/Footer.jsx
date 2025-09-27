@@ -13,8 +13,8 @@ const Footer = () => {
       <Container>
         <div className="footer grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 text-neutral-content py-10 ml-2">
           <aside className="mr-10 ">
-            <h1 className="text-2xl font-bold">CS — Ticket System</h1>
-            <p>
+            <h1 className="text-xl font-semibold">CS Ticket System</h1>
+            <p className=" text-[#FFFF]">
               We provide an intuitive ticketing platform that helps teams manage
               support requests seamlessly. Our goal is faster resolution, better
               communication, and happier customers
@@ -48,7 +48,7 @@ const Footer = () => {
                   className="text-blue-500 text-2xl"
                 />
               </a>
-              <h3>Twitter</h3>
+              <h3>@CS — Ticket System</h3>
             </div>
             <div className="flex items-center gap-4 cursor-pointer">
               <a className="link link-hover bg-neutral text-neutral-content rounded-full">
@@ -57,16 +57,16 @@ const Footer = () => {
                   className="text-blue-500 text-2xl"
                 />
               </a>
-              <h3>Linked In</h3>
+              <h3>@CS — Ticket System</h3>
             </div>
             <div className="flex items-center gap-4 cursor-pointer">
               <a className="link link-hover bg-neutral text-neutral-content rounded-full">
                 <FontAwesomeIcon
                   icon={faFacebook}
-                  className="bg-neutral text-neutral-content text-2xl"
+                  className=" text-blue-500 bg-neutral text-2xl"
                 />
               </a>
-              <h3>FaceBook</h3>
+              <h3>@CS — Ticket System</h3>
             </div>
             <div className="flex items-center gap-4 cursor-pointer">
               <a className="link link-hover bg-neutral text-neutral-content rounded-full">
@@ -79,7 +79,7 @@ const Footer = () => {
             </div>
           </nav>
         </div>
-        <aside className="text-center p-4 text-neutral-content">
+        <aside className="text-center p-3 text-neutral-content">
           <p>
             Copyright © {new Date().getFullYear()} CS — Ticket System. All
             rights reserved.

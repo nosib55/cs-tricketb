@@ -1,9 +1,12 @@
 import React, { use, useState } from "react";
-import Banner from "./Banner.jsx";
 import Container from "./container.jsx";
 import Card from "./Card.jsx";
+import CardCount from "./CardCount.jsx";
 import TaskStatus from "./TaskStatus.jsx";
 import ResolvedTask from "./ResolvedTask.jsx";
+import Banner from "./CardCount.jsx";
+
+
 const AllCard = ({ fetchPromised }) => {
   const promisedData = use(fetchPromised);
   const [getData, setData] = useState(promisedData);
@@ -13,12 +16,12 @@ const AllCard = ({ fetchPromised }) => {
   return (
     <div>
       {
-        <Banner
+        <CardCount
           getData={getData}
           openCard={openCard}
           setOpenCard={setOpenCard}
           resolved={resolved}
-        ></Banner>
+        ></CardCount>
       }
 
       <Container>

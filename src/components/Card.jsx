@@ -9,10 +9,7 @@ const Card = ({ getData, setData, openCard, setOpenCard }) => {
       month: "numeric",
       day: "numeric",
       year: "numeric",
-      hour: "numeric",
-      minute: "numeric",
-      hour12: true,
-    });
+      });
   };
   const handleClick = (cardData) => {
     const alreadyClick = openCard.find((click) => click.id === cardData.id);

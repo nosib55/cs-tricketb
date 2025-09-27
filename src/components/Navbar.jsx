@@ -1,7 +1,7 @@
 import React from "react";
 
 import Container from "./container";
-const Navbar = () => {
+const Nav = () => {
   return (
     <div className="navbar bg-base-100 shadow-sm sticky top-0 z-50">
       <Container>
@@ -54,10 +54,10 @@ const Navbar = () => {
               </ul>
             </div>
             <div
-              title="CS-Ticket System"
+              
               className="flex-1 flex items-center gap-4"
             >
-              <h2 className="text-2xl font-semibold">CS Ticket System</h2>
+              <h2 className="text-2xl font-semibold">CS Ticket </h2>
             </div>
           </div>
           <div className="navbar-end gap-8">
@@ -83,4 +83,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Nav;
