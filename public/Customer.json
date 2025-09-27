@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "title": "Login session expired",
+    "description": "User reports being logged out immediately after entering credentials.",
+    "customer": { "name": "Alex Carter", "email": "john.doe@example.com" },
+    "status": "In-Progress",
+    "priority": "High",
+    "category": "Login Issue",
+    "createdAt": "2025-09-25T08:15:00Z",
+    "updatedAt": "2025-09-25T09:00:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Card payment declined",
+    "description": "User’s credit card payment keeps getting declined despite sufficient balance.",
+    "customer": { "name": "Emily Davis", "email": "jane.smith@example.com" },
+    "status": "In-Progress",
+    "priority": "Medium",
+    "category": "Payment",
+    "createdAt": "2025-09-24T14:30:00Z",
+    "updatedAt": "2025-09-24T16:45:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Request for offline mode",
+    "description": "User wants an option to use the app without internet connectivity.",
+    "customer": { "name": "Michael Brown", "email": "alice.johnson@example.com" },
+    "status": "In-Progress",
+    "priority": "Low",
+    "category": "Feature Request",
+    "createdAt": "2025-09-23T10:00:00Z",
+    "updatedAt": "2025-09-23T10:00:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Crash when opening settings",
+    "description": "App closes unexpectedly whenever the settings page is opened.",
+    "customer": { "name": "Sophia Lee", "email": "bob.williams@example.com" },
+    "status": "In-Progress",
+    "priority": "High",
+    "category": "Technical Issue",
+    "createdAt": "2025-09-25T06:20:00Z",
+    "updatedAt": "2025-09-25T07:00:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Reset email not working",
+    "description": "User reports clicking the reset password link but nothing happens.",
+    "customer": { "name": "Daniel Moore", "email": "eve.thompson@example.com" },
+    "status": "In-Progress",
+    "priority": "Medium",
+    "category": "Login Issue",
+    "createdAt": "2025-09-24T12:45:00Z",
+    "updatedAt": "2025-09-24T13:30:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Slow page loading",
+    "description": "Pages take too long to load, especially on the dashboard.",
+    "customer": { "name": "Laura Green", "email": "frank.miller@example.com" },
+    "status": "In-Progress",
+    "priority": "Medium",
+    "category": "Performance",
+    "createdAt": "2025-09-23T15:20:00Z",
+    "updatedAt": "2025-09-23T15:40:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Checkout form not submitting",
+    "description": "User cannot complete purchase as the checkout form never submits.",
+    "customer": { "name": "Chris Johnson", "email": "grace.lee@example.com" },
+    "status": "In-Progress",
+    "priority": "High",
+    "category": "Payment",
+    "createdAt": "2025-09-25T09:30:00Z",
+    "updatedAt": "2025-09-25T10:00:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Profile photo upload error",
+    "description": "Uploading a profile photo results in an error message every time.",
+    "customer": { "name": "Hannah Miller", "email": "hannah.brown@example.com" },
+    "status": "In-Progress",
+    "priority": "Low",
+    "category": "Account Issue",
+    "createdAt": "2025-09-22T11:10:00Z",
+    "updatedAt": "2025-09-22T11:50:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Email alerts not coming",
+    "description": "User does not receive any alert emails about account activity.",
+    "customer": { "name": "Jacob Scott", "email": "ian.davis@example.com" },
+    "status": "In-Progress",
+    "priority": "Medium",
+    "category": "Email Issue",
+    "createdAt": "2025-09-24T08:00:00Z",
+    "updatedAt": "2025-09-24T09:00:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Login screen freezes",
+    "description": "App becomes stuck after entering credentials on login page.",
+    "customer": { "name": "Olivia Parker", "email": "jack.wilson@example.com" },
+    "status": "In-Progress",
+    "priority": "High",
+    "category": "Technical Issue",
+    "createdAt": "2025-09-25T07:30:00Z",
+    "updatedAt": "2025-09-25T08:00:00Z"
+  },
+  {
+    "id": 11,
+    "title": "Wrong invoice amount",
+    "description": "Invoice shows an incorrect amount higher than expected.",
+    "customer": { "name": "William Harris", "email": "karen.white@example.com" },
+    "status": "In-Progress",
+    "priority": "High",
+    "category": "Payment",
+    "createdAt": "2025-09-24T13:15:00Z",
+    "updatedAt": "2025-09-24T14:00:00Z"
+  },
+  {
+    "id": 12,
+    "title": "Username change request",
+    "description": "User wants to update their existing username to a new one.",
+    "customer": { "name": "Sophia Martinez", "email": "leo.martin@example.com" },
+    "status": "In-Progress",
+    "priority": "Low",
+    "category": "Account Issue",
+    "createdAt": "2025-09-23T09:50:00Z",
+    "updatedAt": "2025-09-23T10:20:00Z"
+  },
+  {
+    "id": 13,
+    "title": "Crashes after update",
+    "description": "App keeps crashing right after installing the recent update.",
+    "customer": { "name": "Ethan Walker", "email": "mia.clark@example.com" },
+    "status": "In-Progress",
+    "priority": "High",
+    "category": "Technical Issue",
+    "createdAt": "2025-09-25T06:50:00Z",
+    "updatedAt": "2025-09-25T07:20:00Z"
+  },
+  {
+    "id": 14,
+    "title": "Unable to connect social account",
+    "description": "User cannot link their social media account to the app.",
+    "customer": { "name": "Ava Lewis", "email": "nathan.scott@example.com" },
+    "status": "In-Progress",
+    "priority": "Medium",
+    "category": "Integration",
+    "createdAt": "2025-09-23T14:00:00Z",
+    "updatedAt": "2025-09-23T14:30:00Z"
+  },
+  {
+    "id": 15,
+    "title": "Subscription features locked",
+    "description": "User paid for subscription but features remain inaccessible.",
+    "customer": { "name": "Liam White", "email": "olivia.adams@example.com" },
+    "status": "In-Progress",
+    "priority": "High",
+    "category": "Subscription",
+    "createdAt": "2025-09-24T11:30:00Z",
+    "updatedAt": "2025-09-24T12:15:00Z"
+  }
+]
